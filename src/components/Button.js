@@ -15,13 +15,13 @@ export default class Button extends Container {
    * @function shows the button
    */
   show() {
-    gsap.to(this, { alpha: 1 });
+    gsap.to(this, { alpha: 1, duration: 0.2 });
   }
   /**
    * @function hides the button
    */
   hide() {
-    gsap.to(this, { alpha: 0 });
+    gsap.to(this, { alpha: 0, duration: 0.2 });
   }
   /**
    * @private
