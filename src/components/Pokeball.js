@@ -18,7 +18,7 @@ export default class Pokeball extends Container {
   constructor() {
     super();
     this.name = "pokeball";
-    this.text = new Text("KURVI", {
+    this.text = new Text("text", {
       fontFamily: "Arial",
       fontSize: 150,
       fill: 0xffffff,
